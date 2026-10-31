@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href=".//favicon.ico" type="image/x-icon">
+    <title>Spotify - Web Player: Music for everyone</title>
+
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/utility.css">
+</head>
+
+<div class="container flex bgblack">
+
+    <div class="left">
+        <div class="close">
+            <img width="30" class="invert" src="./img/close.svg" alt="">
+        </div>
+        <div class="home bg-grey rounded m-1 p-1">
+            <div class="logo"><img width="50" class="invert" src="./img/logo.svg" alt=""></div>
+            <ul>
+                <li> <img class="invert" src="./img/home.svg" alt="home">Home</li>
+                <li> <img class="invert" src="./img/search.svg" alt="search">Search</li>
+            </ul>
+        </div>
+        <div class="library bg-grey rounded m-1 p-1">
+            <div class="heading">
+                <img class="invert" src="./img/playlist.svg" alt="">
+                <h2>
+                    Your Library
+                </h2>
+            </div>
+            <div class="songList">
+                <ul>
+
+                </ul>
+            </div>
+            <div class="footer">
+                <div><a href="https://www.spotify.com/in-en/legal/"><span>Legal</span></a></div>
+                <div><a href="https://www.spotify.com/in-en/safetyandprivacy/"><span>Safety &amp; Privacy
+                            Center</span></a>
+                </div>
+                <div><a href="https://www.spotify.com/in-en/legal/privacy-policy/"><span>Privacy Policy</span></a></div>
+                <div><a href="https://www.spotify.com/in-en/legal/cookies-policy/"><span>Cookies</span></a>
+                </div>
+                <div><a href="https://www.spotify.com/in-en/legal/privacy-policy/#s3"><span>About Ads</span></a></div>
+                <div><a href="https://www.spotify.com/in-en/accessibility/"><span>Accessibility</span></a>
+                </div>
+            </div>
+
+
+        </div>
+
+    </div>
+    <div class="right bg-grey rounded  ">
+        <div class="header rounded">
+            <div class="nav">
+                <div class="hamBurgerContainer">
+                    <img class="invert hamBurger" src="./img/hamBurger.svg" alt="">
+
+                    <!-- First SVG Icon -->
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M15 6L9.70711 11.2929L9.37377 11.6262L9.20711 11.7929V12L9.20711 12.2071L9.37377 12.3738L9.70711 12.7071L15 18"
+                            stroke="#ffffff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+
+                    <!-- Second SVG Icon -->
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M9 18L14.2929 12.7071L14.6262 12.3738L14.7929 12.2071V12L14.7929 11.7929L14.6262 11.6262L14.2929 11.2929L9 6"
+                            stroke="#ffffff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                </div>
+
+            </div>
+            <div class="button">
+                <button class="signupBtn">Sign up</button>
+                <button class="loginBtn">Log in</button>
+            </div>
+        </div>
+        <div class="spotifyPlaylist">
+            <h1>Spotify Playlists</h1>
+            <div class="cardContainer">
+                <!-- <div data-folder="cs" class="card">
+
+                    <div class="play">
+
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"
+                            style="width: 100%; height: 100%; color: black;">
+                            <path
+                                d="M18.8906 12.846C18.5371 14.189 16.8667 15.138 13.5257 17.0361C10.296 18.8709 8.6812 19.7884 7.37983 19.4196C6.8418 19.2671 6.35159 18.9776 5.95624 18.5787C5 17.6139 5 15.7426 5 12C5 8.2574 5 6.3861 5.95624 5.42132C6.35159 5.02245 6.8418 4.73288 7.37983 4.58042C8.6812 4.21165 10.296 5.12907 13.5257 6.96393C16.8667 8.86197 18.5371 9.811 18.8906 11.154C19.0365 11.7084 19.0365 12.2916 18.8906 12.846Z"
+                                stroke="currentColor" stroke-width="1.5" fill="#000" stroke-linejoin="round">
+                            </path>
+                        </svg>
+
+
+
+                    </div>
+                    <img src="https://i.scdn.co/image/ab67616d00001e02a7e251b543c77a6ed356dfbe" alt="">
+                    <h2>Saiyaara ('from Saiyaara')</h2>
+                    <p>
+                        <a draggable="true" dir="auto" href="/artist/4f7KfxeHq9BiylGmyXepGt">Tanishk Bagchi</a>
+                        <a draggable="true" dir="auto" href="/artist/05etL4pzWd6TSv1x5WrlG3">Faheem Abdullah</a>
+                        <a draggable="true" dir="auto" href="/artist/5yzqUq3vXrMkmfcOwMY203">Arslan Nizami</a>
+                        <a draggable="true" dir="auto" href="/artist/3GdSQUH1BRtl9UrrtuwJlP">Irshad Kamil</a>
+                    </p>
+                </div>
+
+                <div data-folder="ncs" class="card ">
+
+                    <div class="play">
+
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"
+                            style="width: 100%; height: 100%; color: black;">
+                            <path
+                                d="M18.8906 12.846C18.5371 14.189 16.8667 15.138 13.5257 17.0361C10.296 18.8709 8.6812 19.7884 7.37983 19.4196C6.8418 19.2671 6.35159 18.9776 5.95624 18.5787C5 17.6139 5 15.7426 5 12C5 8.2574 5 6.3861 5.95624 5.42132C6.35159 5.02245 6.8418 4.73288 7.37983 4.58042C8.6812 4.21165 10.296 5.12907 13.5257 6.96393C16.8667 8.86197 18.5371 9.811 18.8906 11.154C19.0365 11.7084 19.0365 12.2916 18.8906 12.846Z"
+                                stroke="currentColor" stroke-width="1.5" fill="#000" stroke-linejoin="round">
+                            </path>
+                        </svg>
+
+
+
+                    </div>
+                    <img src="./music.jpeg" alt="">
+                    <h2>Pahlea bhi mai ('from Animal')</h2>
+                    <p>
+                        <a draggable="true" dir="auto" href="/artist/4f7KfxeHq9BiylGmyXepGt">Tanishk Bagchi</a>
+                        <a draggable="true" dir="auto" href="/artist/05etL4pzWd6TSv1x5WrlG3">Faheem Abdullah</a>
+                        <a draggable="true" dir="auto" href="/artist/5yzqUq3vXrMkmfcOwMY203">Arslan Nizami</a>
+                        <a draggable="true" dir="auto" href="/artist/3GdSQUH1BRtl9UrrtuwJlP">Irshad Kamil</a>
+                    </p>
+                </div> -->
+
+            </div>
+            <div class="playbar">
+                <div class="seekbar">
+                    <div class="circle">
+
+                    </div>
+                </div>
+                <div class="abovebar">
+
+                    <div class="songinfo">
+
+                    </div>
+                    <div class="songbuttons">
+                        <img width="35px" id="previous" src="./img/prevsongs.svg" alt="">
+                        <img width="35px" id="play" src="./img/PlayButton.svg" alt="">
+                        <img width="35px" id="next" src="./img/nextsongs.svg" alt="">
+
+                    </div>
+                    <div class="timevol">
+                        <div class="songtime">
+
+                        </div>
+                        <div class="volume">
+                            <img width="25" src="./img/volume.svg" alt="">
+                            <div class="range">
+                                <input type="range" name="volume">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="./js/script.js"></script>
+
+</body>
+
+</html>
